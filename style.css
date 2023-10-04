@@ -3,3 +3,134 @@
     padding: 0;
     box-sizing: border-box;
 }
+ 
+.top-nav-content{
+    width: 100%;
+    background-color: #131117;
+    padding: 0.5% 7% 0.5% 7%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+.tn-content{
+    color: #ffffffb3;
+    font-size: 103%;
+}
+.tn-content a{
+    color: #ffffffb3;
+}
+.fa-brands{
+    margin-right: 15px;
+    font-size: 103%;
+    color: #687279;
+    
+}
+ 
+.fa-solid{
+    margin-right: 15px;
+    font-size: 103%;
+    color: #687279;
+    border-radius: 100%;
+}
+/* bootom navigation bar */
+
+.navigation-bar{
+    background-color: #ffffffcc;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5% 6% 0.5% 7%;
+    position: sticky;
+     
+}
+.logo{
+    padding: 1% 0% 1% 0%;
+}
+.logo-image{
+    width: 56%;
+}
+.nav-bar-content{
+    padding: 1.5%;
+    margin-right: 12%;
+}
+.nav-bar-content ul li a{
+      text-decoration: none;
+      color: #131117;
+}
+.nav-bar-content ul li a span{
+    color: #131117;
+}
+.nav-list{
+    display: flex;
+    display: inline;
+    margin-right: 32px;
+    font-family: "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 115%;
+   
+}
+
+.nav-icons{
+    font-size: 110%;
+    padding: 2%;
+}
+/* login icon */
+.fa-regular{
+  border-radius: 100%;
+    padding: 2px;
+    color: #687279;
+    font-size: 75%;
+    margin-right: 37px;
+    border:2px solid #687279;
+    margin-left: 37px;
+}
+/* container-2 */
+.container-2{
+    background-color: #d9dadc;
+    display: flex;
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+    
+}
+.card-empty{
+    background-image: url("https://demo.creativethemes.com/blocksy/garderobe/wp-content/uploads/2021/12/home-hero-image_optimized.webp");
+    background-repeat: no-repeat;
+    height: 118vh;
+    margin-top: -3%;
+  margin-left:-7%;
+     
+}
+.card-1-content{
+    padding: 30% 0% 0% 15%;
+}
+.brand-new{ 
+    font-family: "Cambria, Cochin", Georgia, Times, 'Times New Roman', serif;
+/* font-family: "IBM Plex Mono", sans-serif; */
+font-size: 450%;
+font-weight: 700;
+}
+.cc-para{
+    margin-top: 8%;
+    font-size: 120%;
+}
+.collection{
+    margin-top: 8%;
+    font-size: 110%;
+     font-family:  Arial, Helvetica, sans-serif;
+}
+.collection .fa-solid{
+    border-radius: 100%;
+    background-color: black;
+}
+.btn-1{
+   padding: 3% 4% 3% 4%;
+   margin-top: 8%;
+   background-color: #e8363c;
+}
+.btn-1 a{
+    text-decoration: none;
+    font-family:  Arial, Helvetica, sans-serif;
+   font-size: 100%;
+   color: #ffffff;
+   
+   font-weight: bold;
+}
